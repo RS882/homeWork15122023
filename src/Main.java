@@ -5,5 +5,6 @@ public class Main {
 
         System.out.println(list.check("iuii"));
         System.out.println(list.check(new String[]{"aaa", "Gyy", "DDD"}));
+        System.out.println(list.longestWord());
     }
 }
