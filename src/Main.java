@@ -10,5 +10,8 @@ public class Main {
         System.out.println(list.longestWord());
         list.add("qqqqq");
         System.out.println(Arrays.toString(list.getList()));
+        list.addIfNotExists("aaa");
+        list.addIfNotExists("11aaa");
+        System.out.println(Arrays.toString(list.getList()));
     }
 }

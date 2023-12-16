@@ -43,4 +43,9 @@ public class CustomStringList {
         newList[newList.length-1] = str;
         this.list= newList;
     }
+    public void addIfNotExists(String str){
+        if(this.check(str)){
+            System.out.printf("The string <%s> in the array already exists%n", str);
+        }else add(str);
+    }
 }
