@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -6,5 +8,7 @@ public class Main {
         System.out.println(list.check("iuii"));
         System.out.println(list.check(new String[]{"aaa", "Gyy", "DDD"}));
         System.out.println(list.longestWord());
+        list.add("qqqqq");
+        System.out.println(Arrays.toString(list.getList()));
     }
 }
