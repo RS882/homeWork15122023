@@ -15,6 +15,11 @@ public class CustomStringList {
         }
         return false;
     }
-
+    public boolean check(String [] arr){
+        for ( String elem: arr) {
+            if(!this.check(elem)) return false;
+        }
+        return true;
+    }
 
 }
