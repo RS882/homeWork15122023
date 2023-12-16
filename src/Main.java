@@ -3,6 +3,7 @@ public class Main {
 
         CustomStringList list = new CustomStringList(new String[]{"aaa", "DDD","rrr", "Gyy", "iii", "opwieu"});
 
+        System.out.println(list.check("iuii"));
 
     }
 }
